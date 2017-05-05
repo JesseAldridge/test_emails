@@ -38,9 +38,12 @@ for test_dict in [
 print 'rsyncing emails...'
 
 local_emails_path = os.path.expanduser(config.local_emails_path)
+remote_emails_path = config.remote_emails_path
+if not remote_emails_path.endswith('/'):
+  remote_emails_path += '/'
 
 command_line = 'rsync -t {}@{}:{}* {}'.format(
-  config.user_name, config.host_name, config.remote_emails_path, local_emails_path)
+  config.user_name, config.host_name, remote_emails_path, local_emails_path)
 command_list = command_line.split()
 subprocess.call(command_list)
 
