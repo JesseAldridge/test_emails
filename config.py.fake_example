@@ -1,0 +1,5 @@
+base_url = 'https://localhost.foobar.com'
+user_name = 'jesse_aldridge'
+host_name = 'my-ec2-box'
+remote_emails_path = '/my/emails/path'
+local_emails_path = '~/Desktop/emails'

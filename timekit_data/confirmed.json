@@ -1,0 +1,88 @@
+{
+  "id": "9e07e979-ca74-4caf-ba5b-d76f1bcbd726",
+  "state": "canceled",
+  "graph": "instant",
+  "completed": false,
+  "created_at": "2017-05-01T17:31:31+0000",
+  "updated_at": "2017-05-01T17:31:32+0000",
+  "customers": [
+    {
+      "id": "2eeaadba-8ce9-4a36-a2c8-f5ca0d585205",
+      "name": "Jesse Testing",
+      "email": "jessealdridge+may1-11am@gmail.com",
+      "phone": "",
+      "voip": "",
+      "timezone": "America/Los_Angeles",
+      "meta": "{}"
+    }
+  ],
+  "event": {
+    "id": "3a582046-23ba-446f-9678-9e436c792631",
+    "what": "Jesse Aldridge",
+    "where": "TBA",
+    "description": "Comment: \n",
+    "rsvp": "accepted",
+    "allDay": false,
+    "start": "2017-05-01T18:00:00+0000",
+    "end": "2017-05-01T19:00:00+0000",
+    "created_at": "2017-05-01T17:31:31+0000",
+    "updated_at": "2017-05-01T17:31:31+0000"
+  },
+  "calendar": {
+    "id": "f2d92396-3718-4372-8162-447676b8667e",
+    "provider_id": null,
+    "provider_access": "owner",
+    "provider_primary": false,
+    "provider_sync": false,
+    "name": "Bookings",
+    "description": "Created with Timekit",
+    "foregroundcolor": null,
+    "backgroundcolor": null,
+    "created_at": "2017-04-24T23:38:03+0000",
+    "updated_at": "2017-04-24T23:38:03+0000",
+    "provider": "timekit"
+  },
+  "attributes": {
+    "customer": {
+      "email": "jessealdridge+may1-11am@gmail.com",
+      "name": "Jesse Testing",
+      "timezone": "America/Los_Angeles"
+    },
+    "event": {
+      "calendar_id": "f2d92396-3718-4372-8162-447676b8667e",
+      "description": "Comment: \n",
+      "end": "2017-05-01T12:00:00-07:00",
+      "invite": true,
+      "my_rsvp": "accepted",
+      "participants": [
+        "jessealdridge+may1-11am@gmail.com"
+      ],
+      "start": "2017-05-01T11:00:00-07:00",
+      "sync_provider": true,
+      "what": "Jesse Aldridge",
+      "where": "TBA"
+    },
+    "event_info": {
+      "calendar_id": "f2d92396-3718-4372-8162-447676b8667e",
+      "description": "Comment: \n",
+      "end": "2017-05-01T19:00:00+0000",
+      "participants": [
+        "jessealdridge+may1-11am@gmail.com"
+      ],
+      "start": "2017-05-01T18:00:00+0000",
+      "what": "Jesse Aldridge",
+      "where": "TBA"
+    }
+  },
+  "user": {
+    "id": "scheduler_id:1",
+    "first_name": "Jack",
+    "last_name": "Tester",
+    "name": "Jack Tester",
+    "email": "jessealdridge+jack@gmail.com",
+    "image": null,
+    "timezone": "America/Los_Angeles",
+    "created_at": "2017-04-24T23:38:02+0000",
+    "updated_at": "2017-04-24T23:38:02+0000"
+  }
+}
