@@ -15,11 +15,12 @@ if not os.path.exists(responses_dir):
   os.makedirs(responses_dir)
 
 for test_dict in [
+  {'endpoint': 'send_reminders', 'filename': 'confirmed_no_timezone.json'},
+  {'endpoint': 'send_reminders', 'filename': 'confirmed_no_phone.json'},
+  {'endpoint': 'send_reminders', 'filename': 'confirmed.json'},
   {'endpoint': 'created', 'filename': 'confirmed.json'},
   {'endpoint': 'canceled_by_host', 'filename': 'confirmed.json'},
   {'endpoint': 'canceled_by_partner', 'filename': 'confirmed.json'},
-  {'endpoint': 'send_reminders', 'filename': 'confirmed.json'},
-  {'endpoint': 'send_reminders', 'filename': 'confirmed_no_phone.json'},
 ]:
   filename = test_dict.get('filename')
   endpoint = test_dict.get('endpoint')
