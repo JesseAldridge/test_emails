@@ -10,7 +10,7 @@ requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 headers = {'content-type': 'application/json'}
 
-responses_dir = os.path.join('timekit_data', 'responses')
+responses_dir = os.path.expanduser('~/Desktop/responses')
 if not os.path.exists(responses_dir):
   os.makedirs(responses_dir)
 
